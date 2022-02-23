@@ -35,7 +35,7 @@ export default {
 
     this.socket
     .on('chat', (msg) => {
-
+      console.log(msg)
     })
   },
   methods: {
